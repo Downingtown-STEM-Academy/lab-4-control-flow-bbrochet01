@@ -3,9 +3,10 @@
  
  You want your math tutoring app to determine if a student has passed a quiz or not. Create a variable `questionsCorrect` equal to the number of questions that your user has gotten correct. Create a constant `totalPoints` equal to 20 since there are 20 questions on a quiz. Write an if-else statement that will print "You passed, but you should consider studying a bit more." if the student gets 70% of the questions correct. If the student gets 90% or better, print "Great job! Move on to the next topic." If the student scores less than 70%, print "You still need to study this more." (1 point)
  */
-var questionsCorrect = 2
+var questionsCorrect = 20
 let totalPoints = 20
-var final = Double(totalPoints) / Double(questionsCorrect) * 100
+var final = Double(questionsCorrect) / Double(totalPoints) * 100
+
 print(final)
 if final  >= 90 {
     print("Great job! Move on to the next topic.")
